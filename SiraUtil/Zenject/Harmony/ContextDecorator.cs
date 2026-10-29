@@ -41,7 +41,7 @@ namespace SiraUtil.Zenject.Harmony
                 bindings.Add(new ContextBinding(__instance, installerPrefab.GetType(), accessor));
 
             if (__instance is AsyncSceneContext asyncSceneContext)
-                foreach (var asyncInstaller in asyncSceneContext._asyncInstallers)
+                foreach (var asyncInstaller in asyncSceneContext._registry.installers)
                     bindings.Add(new ContextBinding(__instance, asyncInstaller.GetType(), accessor));
 
             if (__instance is SceneDecoratorContext decorator)

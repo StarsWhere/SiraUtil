@@ -1,0 +1,15 @@
+{
+   "$schema" : "https://raw.githubusercontent.com/bsmg/BSIPA-MetadataFileSchema/master/Schema.json",
+   "id" : "SiraUtil",
+   "name" : "SiraUtil",
+   "author" : "Auros",
+   "version" : "3.3.1+bs.1.42.0",
+   "gameVersion" : "1.42.0",
+   "description" : "A powerful utility mod which provides more tools to Beat Saber modders.",
+   "dependsOn" : {
+      "BSIPA" : "^4.3.6"
+   },
+   "misc" : {
+      "generated-by" : "BSMT.Tasks/0.1.0.0"
+   }
+}

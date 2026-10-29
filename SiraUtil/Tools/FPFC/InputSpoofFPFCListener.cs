@@ -25,8 +25,6 @@ namespace SiraUtil.Tools.FPFC
             return !_active;
         }
 
-        [AffinityPrefix]
-        [AffinityPatch(typeof(OculusVRHelper), nameof(IVRPlatformHelper.GetTriggerValue))]
         protected bool GetOculusTriggerValueOverridePatch(ref float __result)
         {
             __result = _devicelessVRHelper.GetTriggerValue(default);

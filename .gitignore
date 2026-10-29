@@ -355,3 +355,14 @@ MigrationBackup/
 .ionide/
 
 .idea/
+
+# Local compatibility build inputs and outputs
+/.tmp/
+/releases/
+**/bin/
+**/obj/
+**/__pycache__/
+/Beat Saber_Data/
+/UserData/
+/Plugins/
+/Libs/
